@@ -1,0 +1,3 @@
+dev_mount sdcard /storage/sdcard0 14 /devices/sdi4/mmc_host/mmc1/mmc1
+dev_mount external_sd /storage/sdcard1 auto /devices/sdi3/mmc_host/mmc3/mmc3
+dev_mount usbdisk /mnt/usbdisk auto /devices/platform/musb-ux500.0/musb-hdrc

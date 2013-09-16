@@ -1,0 +1,8 @@
+/dev/block/mmcblk0p9         /boot        emmc         defaults        defaults
+/dev/block/mmcblk0p9         /recovery    emmc         defaults        defaults
+/dev/block/mmcblk0p10        /system      ext4         defaults        defaults
+/dev/block/mmcblk0p11        /data        ext4         defaults        defaults
+/dev/block/mmcblk0p12        /cache       ext4         defaults        defaults
+/dev/block/mmcblk0p14        /sdcard      vfat         defaults        defaults
+/dev/block/mmcblk1p1         /external_sd	vfat         defaults        defaults
+
