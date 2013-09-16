@@ -1,0 +1,30 @@
+Android Open Source Project (AOSP) 4.3 for Sony Xperia Go
+
+Getting Started :
+
+    mkdir aosp4.3
+    cd aosp4.3
+    repo init -u https://android.googlesource.com/platform/manifest
+    repo init -u https://android.googlesource.com/platform/manifest -b android-4.3_r2.2
+    repo sync -j16
+    cd device
+    mkdir sony
+    cd sony
+    git clone https://github.com/munjeni/aosp_4.3_device_sony_lotus.git lotus
+    cd lotus
+
+Now connect your phone which have runing FXP CM10 :
+
+    ./extract-files.sh
+    cd ../../..
+    cd hardware
+    git clone https://github.com/munjeni/aosp_4.3_hardware_semc.git semc
+    cd ..
+
+To build :
+
+    . build/envsetup.sh
+    lunch full_lotus-userdebug
+    make otapackage
+
+ENJOY!
