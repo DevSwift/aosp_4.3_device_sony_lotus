@@ -470,7 +470,6 @@ lib/libtee.so
 lib/libste_ens_image_tuningdatabase.so
 lib/libste_ens_image_common.so
 lib/libmcatcher.so
-lib/libblt_hw.so
 lib/libmalutil.so
 lib/libste_ens_audio_common.so
 lib/libmalftd.so
@@ -493,7 +492,6 @@ lib/libmalsms.so
 lib/libpscc.so
 lib/libMiscTaAccessor.so
 lib/libmalmon.so
-lib/libomxil-bellagio.so
 lib/libsterc.so
 lib/ste_omxcomponents/libste_ext_camera.so
 lib/ste_omxcomponents/libste_ens_ispproc.so
