@@ -14,11 +14,12 @@
 
 ifeq ($(BOARD_USES_STE_HARDWARE), true)
 
-ifeq ($(TARGET_SOC), u8500)
+media-libs := media/libomxil-bellagio
 
-media-libs := libomxil-bellagio
+display-libs := display/b2r2lib
 
 include $(call all-named-subdir-makefiles,$(media-libs))
 
-endif # TARGET_SOC
+include $(call all-named-subdir-makefiles,$(display-libs))
+
 endif # BOARD_USES_STE_HARDWARE
